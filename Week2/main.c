@@ -28,7 +28,7 @@ int main() {
         if (front == -1 || front > rear) {
             printf("Underflow\n");
         } else {
-            fptr=fopen("studentout.dat","w");
+            fptr=fopen("studentout1.dat","w");
             for(int i= front;i<=rear;i++){
                 
                 printf("Dequeued element: %s", inp_array[front]);
@@ -50,9 +50,9 @@ int main() {
                 
             }
         }
-    }
+    } //ignore show function as it is not needed 
 
-    fptr = fopen("studentin.dat", "r");
+    fptr = fopen("studentin1.dat", "r");
 
     if (fptr == NULL) {
         printf("Error opening file!\n");
