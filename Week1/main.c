@@ -74,7 +74,7 @@ main ()
 			
 			fprintf (fptr, "%s", inp_array[i]);
 		  }
-		  pop(); #thanks adeeb 
+		  pop(); //thanks adeeb 
 
 	  }
 
